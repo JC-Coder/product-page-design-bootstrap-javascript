@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jstore</title>
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/3efb728339.js" crossorigin="anonymous"></script>
+    <!-- bootstrap css  -->
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <!-- main css  -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- navbar section starts -->
+    <nav>
+      <div class="container">
+        <div class="n1">
+          <div class="nav-logo">Jstore</div>
+
+          <div class="nav-links">
+            <a href="">Home</a>
+            <a href="">Products</a>
+            <a href="">Contact</a>
+          </div>
+        </div>
+
+        <div class="n2">
+            <i class="fa fa-shopping-bag" onclick="showCart()"></i>
+            <div class="cart-item-count">10</div>
+
+            <div class="cart-items">
+                <!-- <div class="card">
+                    <img src="./product1.png" alt="">
+                    <div class="d1">
+                        <div class="title">Product Title</div>
+                        <div class="price">Price: $200.00</div>
+                        <div class="quantity">Quantity: 4</div>
+                    </div>
+                    <div class="d2">
+                        <i class="fa fa-trash"></i>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./product1.png" alt="">
+                    <div class="d1">
+                        <div class="title">Product Title</div>
+                        <div class="price">Price: $200.00</div>
+                        <div class="quantity">Quantity: 4</div>
+                    </div>
+                    <div class="d2">
+                        <i class="fa fa-trash"></i>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navbar section ends -->
+
+    <!-- product section  starts -->
+
+    <div class="product">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 product-image">
+                    <img src="./product1.png" class="w-75 img-fluid" alt="">
+                </div>
+
+                <div class="col-md-6 product-details">
+                    <div class="product-title">
+                        Herbal Tea
+                    </div>
+
+                    <div class="product-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sequi ab quidem minus at corrupti itaque, fugiat voluptas voluptates ea harum optio recusandae incidunt ratione, reiciendis tempora possimus blanditiis officiis.</p>
+                    </div>
+
+                    <div class="product-price">
+                       <div class="pg1">
+                        <p class="price">$100.00</p>
+                        <p class="discount-percent">50%</p>
+                       </div>
+                       <div class="discount-amount">
+                        <p>$200.00</p>
+                       </div>
+                    </div>
+
+                    <div class="product-quantity">
+                        <div class="inner">
+                            <button><i class="fa fa-minus"></i></button>
+                            <p class="product-q">1</p>
+                            <button><i class="fa fa-plus"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="add-cart">
+                        <button><i class="fa fa-shopping-bag"></i> Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- product section ends -->
+
+    <!-- js -->
+    <script src="./main.js"></script>
+  </body>
+</html>
